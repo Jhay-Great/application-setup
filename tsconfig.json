@@ -2,6 +2,12 @@
 /* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
   "compileOnSave": false,
+  "baseUrl": "./",
+  "paths": {
+    "@core": ["src/core"],
+    "@shared": ["src/shared"],
+    "@features": ["src/features"],
+  },
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "strict": true,
