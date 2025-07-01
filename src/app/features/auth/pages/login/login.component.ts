@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
-import { DropdownComponent } from '@shared/components';
+import { ButtonComponent, DropdownComponent } from '@shared/components';
 
 @Component({
   selector: 'app-login',
-  imports: [DropdownComponent],
+  imports: [DropdownComponent, ButtonComponent],
   templateUrl: './login.component.html',
   styleUrl: './login.component.scss'
 })
